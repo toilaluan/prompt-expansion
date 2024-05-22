@@ -4,6 +4,11 @@ wget "https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_expansion.bin?
 mv checkpoints/fooocus_expansion.bin checkpoints/pytorch_model.bin
 ```
 
+**Install pytorch and requirements**
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip3 install -r requirements.txt
+```
 
 **Run**
 ```
